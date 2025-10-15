@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+# Empowering the nation
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Precious Radebe’s Empowering the Nation initiative seeks to upskill gardeners and domestic workers in her community. As a developer, I created a website and mobile application to support her endeavor by making course information more accessible and simplifying the process for clients to contact the company and request prices.
 
-## Get started
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Run the app :
+### 1. Install dependencies:
 
 ```bash
-npm run reset-project
+  npm install my-project
+  cd my-project
 ```
+### 2. Start the app:
+ ```bash
+  npx expo start
+```    
+#### What happens next:
+After running npx expo start, you'll get options to open the app in:
+- Android emulator
+- Expo Go (limited sandbox for testing)
+#### Additional info:
+The project uses file-based routing - you develop by editing files in the app directory
+When ready to start fresh, you can run
+```bash
+ npm run reset-project
+ ```
+  to create a blank app directory
+## Tech Stack
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**HTML** – structure of the website
 
-## Learn more
+**CSS** – styling and layout
 
-To learn more about developing your project with Expo, look at the following resources:
+**JavaScript** – functionality and dynamic features
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+**React Native**– development of the mobile application
 
-## Join the community
 
-Join our community of developers creating universal apps.
+## FAQ
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+### Q: Can I access the platform on my phone?
+A: Yes! You can use both our website and mobile app to look through the courses, register, and manage your learning.
+
+### Q: Do I need to create an account to use the platform?
+A: You can browse courses without an account, but you’ll need to register or log in to enroll in courses .
+
+### Q: The app isn’t working properly — what should I do?
+A: Try closing and reopening the app. If the issue persists, make sure you have the latest version installed or contact support.
+
+### Q: Which devices support the app?
+A: The app is compatible with most modern Android and iOS devices. For the best experience, keep your system updated.
+## Documentation
+
+![Description of image](./images/your-image-name.png)
+
+bute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
